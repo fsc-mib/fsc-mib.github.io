@@ -49,10 +49,10 @@ body {
   /* top: 8px; */
   /* right: 16px; */
   right: 5vw;
-  top: 5%;
+  top: 1%;
   position-anchor: 100% 100%;
   height: auto;
-  width: 20%;
+  width: 25%;
 }
 
 .tip {
@@ -77,7 +77,7 @@ body {
   display: block;
   position: absolute;
   left: 5%;
-  top: 10%;
+  top: 8%;
   position-anchor: 100% 100%;
   text-align: left;
   vertical-align: top;
@@ -95,7 +95,7 @@ body {
   display: block;
   position: absolute;
   left: 5%;
-  top: 5%;
+  top: 1%;
   position-anchor: 100% 100%;
   text-align: left;
   vertical-align: top;
@@ -104,7 +104,7 @@ body {
   color: #FF0000;
   font-weight: normal;
   line-height: 1.3;
-  animation: animated-text__1 3s steps(30, end) 1s 1 normal both; /*,*/
+  animation: animated-text__1 5s steps(60, end) 1s 1 normal both; /*,*/
     /* animated-cursor__1 900ms steps(30, end) 8; */
   animation-delay: 0s;
 }
@@ -158,7 +158,7 @@ body {
     width: 0;
   }
   to {
-    width: 29rem;
+    width: 50rem;
   }
 }
 
