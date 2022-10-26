@@ -3,7 +3,7 @@
 -webkit-box-shadow: 3px 3px 5px #818181;
 -moz-box-shadow: 3px 3px 5px #818181;
 */
-display:none;
+display:block;
 position:absolute;
 padding: 4px;
 max-width: 500px;
