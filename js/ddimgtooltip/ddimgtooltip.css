@@ -20,3 +20,7 @@ max-width: 500px;
 img {
 border: 0px;
 }
+
+br{
+   display:block !important;
+}
