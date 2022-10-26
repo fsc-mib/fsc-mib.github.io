@@ -8,7 +8,7 @@ var ddimgtooltip = {
   tiparray: (function () {
     var tooltips = []
 	//define the width of the tooltip-boxes
-	let box_w = "300px"
+	let box_w = "400px"
     
 	//define each tooltip below: tooltip[inc]=['path_to_image', 'optional desc', optional_CSS_object]
     //For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
@@ -16,7 +16,7 @@ var ddimgtooltip = {
 
     tooltips[1] = [ "images/01_8_November.jpg",
       "8. November 1895:<br>Der Physiker Wilhelm Conrad Röntgen entdeckt die<br>Röntgenstrahlen.<br>Am Jahrestag wird weltweit der «International Day of<br>Radiology» gefeiert, dies auf Initiative der amerika-<br>nischen und europäischen Gesellschaft für Radiologie."
-      ,{ background: "white", opacity: 0.98, width:box_w, display:'block'}]
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[2] = [ "images/02_Was ist Radiologie.jpg",
       "Was ist Radiologie?<br>Das medizinische Fachgebiet setzt zahlreiche tech-<br>nische Verfahren ein, um medizinische Bilder zu dia-<br>gnostischen, therapeutischen und wissenschaftlichen<br>Zwecken zu gewinnen.<br>Die meisten Verfahren werden als bildgebend oder<br>bildgesteuert bezeichnet."
@@ -94,11 +94,12 @@ var ddimgtooltip = {
       var text = tipinfo[1] || "";
       var cssStyles = tipinfo[2] || {};
 
-      if (window && window.screen && (window.screen.width <= 576)) {
-        // text = text.replaceAll("<br>", "");
-        text = text.split("<br>").join("");
-        cssStyles.maxWidth = "400px";
-      }
+//MiB: auskommentiert um <br> auch auf dem Smartphone korrekt darzustellen
+      // if (window && window.screen && (window.screen.width <= 576)) {
+        // // text = text.replaceAll("<br>", "");
+        // text = text.split("<br>").join("");
+        // cssStyles.maxWidth = "400px";
+      // }
 
       return $('<div id="' + tipid + '" class="ddimgtooltip" />')
         .html(
