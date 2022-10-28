@@ -35,7 +35,7 @@ var ddimgtooltip = {
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[6] = [ "images/06_Rund 70 Dozentinnen.jpg",
-      "Rund 70 Dozent*innen unterrichten ca. 1200 Medizin-<br>studierende in 6 Studienjahren.<br>Wir sind jedoch nicht nur in die Ausbildung von<br>Ärzt*innen, sondern auch von Radiologiefachpersonen,<br>Physiker*innen, Biolog*innen, Chemiker*innen sowie<br>anderen Fachleuten involviert, betreuen Studierende,<br>Unterassistent*innen, Diplomand*innen und Dokto-<br>rierende.<br>ls Aus-, Weiter- und Fortbildungseinrichtung ver-<br>mitteln wir ihnen medizinisches, technisches und natur-<br>wissenschaftliches Wissen."
+      "Rund 70 Dozent*innen unterrichten ca. 1200 Medizin-<br>studierende in 6 Studienjahren.<br>Wir sind jedoch nicht nur in die Ausbildung von<br>Ärzt*innen, sondern auch von Radiologiefachpersonen,<br>Physiker*innen, Biolog*innen, Chemiker*innen sowie<br>anderen Fachleuten involviert, betreuen Studierende,<br>Unterassistent*innen, Diplomand*innen und Dokto-<br>rierende.<br>Als Aus-, Weiter- und Fortbildungseinrichtung ver-<br>mitteln wir ihnen medizinisches, technisches und natur-<br>wissenschaftliches Wissen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[7] = [ "images/07_Dank der Radiologie.jpg",
