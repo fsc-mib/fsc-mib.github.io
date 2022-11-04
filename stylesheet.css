@@ -49,7 +49,7 @@ body {
   /* top: 8px; */
   /* right: 16px; */
   right: 5vw;
-  top: 1.5vh;
+  top: 2vh;
   position-anchor: 100% 100%;
   height: auto;
   width: 25%;
@@ -95,7 +95,7 @@ body {
   display: block;
   position: absolute;
   left: 5%;
-  top: 4vh;
+  top: -1vh;
   position-anchor: 100% 100%;
   text-align: left;
   vertical-align: top;
@@ -175,7 +175,7 @@ body {
   display: block;
   position: absolute;
   left: 5vw;
-  bottom: 5%;
+  bottom: 2vh;
   position-anchor: 100% 100%;
   height: 7%;
   width: auto;
@@ -185,7 +185,7 @@ body {
   display: block;
   position: absolute;
   right: 5vw;
-  bottom: 5%;
+  bottom: 1.5vh;
   position-anchor: 100% 100%;
   text-align: right;
   vertical-align: bottom;
