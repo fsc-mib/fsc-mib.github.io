@@ -52,7 +52,7 @@ body {
   top: 2vh;
   position-anchor: 100% 100%;
   height: auto;
-  width: 25%;
+  width: 20%;
 }
 
 .tip {
@@ -178,14 +178,14 @@ body {
   bottom: 2vh;
   position-anchor: 100% 100%;
   height: auto;
-  width: 7vw;
+  width: 5vw;
 }
 
 .impressum {
   display: block;
   position: absolute;
   right: 5vw;
-  bottom: 1.5vh;
+  bottom: 2vh;
   position-anchor: 100% 100%;
   text-align: right;
   vertical-align: bottom;
